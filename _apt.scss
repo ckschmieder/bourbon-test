@@ -1,0 +1,17 @@
+@import 'bourbon/bourbon';
+
+/* @import "node_modules/bourbon/core/bourbon"; */
+
+$color_primary: blue;
+
+body {
+	@include linear-gradient(to top, red, orange);
+}
+
+
+h4 {
+	color: $color_primary;
+	padding: 5px;	
+	background-color: #ccc;
+}
+ 
